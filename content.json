@@ -2,9 +2,14 @@
     "Format": "2.6.0",
     "Changes": [
         {
-            "Action": "Load",
+            "Action": "EditImage",
             "Target": "Portraits/MrQi",
             "FromFile": "assets/MsQi.png"
         },
+        {
+            "Action": "EditImage",
+            "Target": "Portraits/AngelOfStars.Mrqifriendable_TheMrQi",
+            "FromFile": "assets/MsQi.png"
+        }
     ]
 }
