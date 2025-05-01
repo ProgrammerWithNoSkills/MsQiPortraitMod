@@ -1,0 +1,11 @@
+{
+    "Name": "[CP] Ohodavi's Portraits for Ms. Qi",
+    "Author": "Starlight",
+    "Version": "1.0.0",
+    "Description": "Portraits for Ms. Qi",
+    "UniqueID": "Starlight.AnimeMsQi",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Starlight.AnimeMsQi"
+    }
+}
