@@ -4,12 +4,13 @@
         {
             "Action": "EditImage",
             "Target": "Portraits/MrQi",
-            "FromFile": "assets/MsQi.png"
+            "FromFile": "assets/MsQi_{{season}}.png"
         },
         {
             "Action": "EditImage",
             "Target": "Portraits/AngelOfStars.Mrqifriendable_TheMrQi",
-            "FromFile": "assets/MsQi.png"
+            "FromFile": "assets/MsQi_{{season}}.png"
         }
     ]
 }
+
