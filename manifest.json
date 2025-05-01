@@ -4,7 +4,7 @@
     "Version": "1.0.0",
     "Description": "Portraits for Ms. Qi",
     "UniqueID": "Starlight.AnimeMsQi",
-    "UpdateKeys": [],
+    "UpdateKeys": [ "GitHub:ProgrammerWithNoSkills/MsQiPortraitMod" ],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     }
