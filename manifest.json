@@ -7,5 +7,12 @@
     "UpdateKeys": [ "GitHub:ProgrammerWithNoSkills/MsQiPortraitMod" ],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
-    }
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "AngelOfStars.Mrqifriendable",
+            "IsRequired": true,
+            "MinimumVersion": "1.0.3"
+        }
+    ]
 }
