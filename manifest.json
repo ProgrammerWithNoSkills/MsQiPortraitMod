@@ -1,11 +1,18 @@
 {
     "Name": "[CP] Ohodavi's Portraits for Ms. Qi",
     "Author": "Starlight",
-    "Version": "1.0.1",
+    "Version": "1.1.0",
     "Description": "Portraits for Ms. Qi",
     "UniqueID": "Starlight.AnimeMsQi",
     "UpdateKeys": [ "GitHub:ProgrammerWithNoSkills/MsQiPortraitMod" ],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
-    }
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "AngelOfStars.Mrqifriendable",
+            "IsRequired": true,
+            "MinimumVersion": "1.0.3"
+        }
+    ]
 }
