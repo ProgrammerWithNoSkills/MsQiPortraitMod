@@ -1,3 +1,2 @@
-- Add seasonal outfits
-- Test seasonal outfits
+- Add event outfits
 - Test outfits in heart events
