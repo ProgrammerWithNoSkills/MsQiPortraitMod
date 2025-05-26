@@ -1,28 +1,54 @@
 {
     "Format": "2.6.0",
     "Changes": [
+        {"//comment": "Vanilla Portraits"},
         {
             "Action": "EditImage",
             "Target": "Portraits/MrQi",
-            "FromFile": "assets/MsQi_{{season}}.png"
+            "FromFile": "assets/MsQiPortrait.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Portraits/MrQi",
+            "FromFile": "assets/MsQiPortraitWinter.png",
+            "When": {
+                "Season": "Winter"
+            }
+        },
+        {"//comment": "Modded Portraits"},
+        {
+            "Action": "EditImage",
+            "Target": "Portraits/AngelOfStars.Mrqifriendable_TheMrQi",
+            "FromFile": "assets/MsQiPortrait.png"
         },
         {
             "Action": "EditImage",
             "Target": "Portraits/AngelOfStars.Mrqifriendable_TheMrQi",
-            "FromFile": "assets/MsQi_{{season}}.png"
-        },
-        {
-            "Action": "EditImage",
-            "Target": "Portraits/AngelOfStars.Mrqifriendable_TheMrQi",
-            "FromFile": "assets/Married_MsQi_{{season}}.png",
+            "FromFile": "assets/MsQiPortraitMarried.png",
             "When": {
                 "Relationship:AngelOfStars.Mrqifriendable_TheMrQi": "Married"
             }
         },
         {
             "Action": "EditImage",
+            "Target": "Portraits/AngelOfStars.Mrqifriendable_TheMrQi",
+            "FromFile": "assets/MsQiPortraitFD.png",
+			"Update": "OnLocationChange",
+            "When": {
+                "Relationship:AngelOfStars.Mrqifriendable_TheMrQi": "Married",
+                "DayEvent": "flower dance",
+				"LocationName": "Forest, temp"
+            }
+        },
+        {
+            "Action": "EditImage",
             "Target": "Portraits/AngelOfStars.Mrqifriendable_TheMrQi_Winter",
-            "FromFile": "assets/Married_MsQi_{{season}}.png",
+            "FromFile": "assets/MsQiPortraitWinter.png"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Portraits/AngelOfStars.Mrqifriendable_TheMrQi_Winter",
+            "FromFile": "assets/MsQiPortraitWinterMarried.png",
             "When": {
                 "Relationship:AngelOfStars.Mrqifriendable_TheMrQi": "Married"
             }
