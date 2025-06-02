@@ -1,7 +1,6 @@
 {
-    "Format": "2.6.0",
+    "Format": "2.7.0",
     "Changes": [
-        {"//comment": "Vanilla Portraits"},
         {
             "Action": "EditImage",
             "Target": "Portraits/MrQi",
@@ -15,7 +14,6 @@
                 "Season": "Winter"
             }
         },
-        {"//comment": "Modded Portraits"},
         {
             "Action": "EditImage",
             "Target": "Portraits/AngelOfStars.Mrqifriendable_TheMrQi",
